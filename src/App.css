@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.furi :first-child :first-child :first-child {
+    color: rgba(31, 0, 145, 0.404);
+}
+
+.furi.bold :first-child :first-child :first-child {
+    /* color: rgba(31, 0, 145, 0.404); */
+    /* color: orange; */
+    font-weight: bold;
+}
+
+.furi.orange :first-child :first-child :first-child {
+    /* color: rgba(31, 0, 145, 0.404); */
+    color: orange;
+}
+
+.furi.red :first-child :first-child :first-child {
+    /* color: rgba(31, 0, 145, 0.404); */
+    color: red;
+}
+
+.furi.green :first-child :first-child :first-child {
+    /* color: rgba(31, 0, 145, 0.404); */
+    color: green;
+}
